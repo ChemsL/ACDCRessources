@@ -1,0 +1,55 @@
+body {
+  background: repeating-linear-gradient(120deg, black, black 800px, red 800px, red 1600px);
+}
+
+nav {
+  color: red;
+}
+
+.discographie article {
+  box-shadow: 10px 5px 5px black;
+  background-color: white;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  margin-bottom: 0.3rem;
+}
+.discographie article .btn {
+  align-items: center;
+}
+.discographie article img {
+  width: 12rem;
+  height: 9rem;
+}
+.discographie article h4 {
+  color: red;
+  text-align: center;
+}
+.discographie article p {
+  text-align: center;
+}
+
+.artistes img {
+  width: 9rem;
+  height: 9rem;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+  border: solid white 3px;
+}
+
+.emailo {
+  height: 10rem;
+}
+
+::-moz-placeholder {
+  color: red;
+  opacity: 1;
+}
+
+::placeholder {
+  color: red;
+  opacity: 1;
+}
+
+i {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
