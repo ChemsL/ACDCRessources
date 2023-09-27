@@ -2,8 +2,23 @@ body {
   background: repeating-linear-gradient(120deg, black, black 800px, red 800px, red 1600px);
 }
 
+@font-face {
+  font-family: "hardrock";
+  src: url(../fonts/HARD_ROCK.ttf);
+}
+@font-face {
+  font-family: "thedark";
+  src: url(../fonts/TheDark.ttf);
+}
+@font-face {
+  font-family: "ROCKNROLL";
+  src: url(../fonts/rocknroll_typo_crazy.ttf);
+}
 nav {
   color: red;
+}
+nav a {
+  font-family: thedark;
 }
 
 .discographie article {
@@ -29,11 +44,19 @@ nav {
 }
 
 .artistes img {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   justify-content: space-evenly;
   margin-left: 1rem;
   border: solid white 3px;
+}
+
+#contac {
+  font-family: hardrock;
+}
+
+#disco button {
+  font-family: ROCKNROLL;
 }
 
 .emailo {
@@ -52,4 +75,8 @@ nav {
 
 i {
   color: red;
+}
+
+figcaption {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

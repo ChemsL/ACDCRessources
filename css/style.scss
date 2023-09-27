@@ -1,61 +1,96 @@
-body{
-    background: repeating-linear-gradient(
-  120deg,
-  black,
-  black 800px,
-  red 800px,
-  red 1600px
-);
+body {
+    background: repeating-linear-gradient(120deg,
+            black,
+            black 800px,
+            red 800px,
+            red 1600px);
 }
-nav{
-    color:red;
+
+@font-face {
+    font-family: "hardrock";
+    src: url(../fonts/HARD_ROCK.ttf);
 }
+
+@font-face {
+    font-family: "thedark";
+    src: url(../fonts/TheDark.ttf);
+}
+
+@font-face {
+    font-family: "ROCKNROLL";
+    src: url(../fonts/rocknroll_typo_crazy.ttf);
+}
+
+nav {
+    color: red;
+
+    a {
+        font-family: thedark;
+
+    }
+}
+
 .discographie {
-article {
-    box-shadow: 10px 5px 5px black;
-    background-color: white;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
-    margin-bottom: 0.3rem;
-    .btn {
-        align-items: center;
-    }
+    article {
+        box-shadow: 10px 5px 5px black;
+        background-color: white;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        margin-bottom: 0.3rem;
 
-    img {
-        width: 12rem;
-        height: 9rem;
-    }
+        .btn {
+            align-items: center;
+        }
 
-    h4 {
-        color: red;
-        text-align: center;
-    }
+        img {
+            width: 12rem;
+            height: 9rem;
+        }
 
-    p {
-        text-align: center;
+        h4 {
+            color: red;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
     }
 }
-}
+
 .artistes {
     img {
-        width: 9rem;
-        height: 9rem;
+        width: 8rem;
+        height: 8rem;
         justify-content: space-evenly;
         margin-left: 1rem;
         border: solid white 3px;
 
     }
-    
 
+
+}
+#contac {
+    font-family: hardrock;
+}
+#disco {
+    button {
+    font-family: ROCKNROLL;
+}
 }
 .emailo {
     height: 10rem;
 }
+
 ::placeholder {
     color: red;
     opacity: 1;
-  }
+}
 
-  i {
+i {
     color: red;
-  }
+}
+
+figcaption {
+    color: white;
+}
